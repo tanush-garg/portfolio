@@ -1,0 +1,231 @@
+/* Importing font family */
+
+/* removing preset styling */
+*{
+   margin: 0%;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Styling body */
+body{
+    padding: 0 116px;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-evenly;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+
+.direct-column{
+    flex-direction: column;
+}
+
+/* Styling navbar */
+nav>a{
+    height: 100px;
+    width: 70%;
+}
+nav>a{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+nav>a:hover{
+    color: #A3CB38;
+    font-weight: bold;
+}
+
+/* Styling Header section */
+header{
+ min-height: 620px;
+ flex-wrap: wrap-reverse;
+}
+.header-text{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 536px;
+}
+header img{
+    size: 100%;
+}
+.bg-green{
+    position: absolute;
+    width: 446px;
+    height: 629px;
+    left: 948px;
+    top: 0;
+    right: 492;
+    background-color: #A3CB38;
+    border-radius: 0px 0px 100px 100px;
+    z-index: -1;
+    left: 0;
+}
+
+/* Styling main hustle */
+.my-main-hustle{
+    position: absolute;
+    background-image: url(.\assets\bg.png);
+    background-repeat: no-repeat;
+    min-height: 550px;
+    width: 636px;
+    z-index: index -1;;
+    left: 0;}
+    .my-main-hustle-text{
+     margin-top: 1%;
+     max-width: 555px;
+     margin-left: 200px;
+     
+    }
+    .my-main-hustle-container>h1{
+        max-width: 653px;
+        background-color: #A3CB38;
+    }
+
+    h3{
+       color: #A3CB38;
+       font-size: 30px;
+
+    }
+    h4{
+      font-size: 18px;
+    }
+    h1{
+        font-size: 100px;
+        line-height: 100px;
+    }
+    .button{
+        height: 50px;
+        width: 150px;
+        border-radius: 4px;
+        background-color: #A3CB38;
+        margin-top: 32px;
+    }
+.button{
+color: white;
+text-align: center;
+line-height: 50px;
+font-size: 16px;
+font-weight: bold;
+}
+
+
+
+/* Styling my work */
+.my-work{
+    min-height: 1045px;
+    flex-direction: column;
+}
+.my-work>h2{
+    text-align: center;
+}
+.my-work>p{
+    max-width: 700px;
+    text-align: center;
+}
+.my-work-container{
+    width: 100vw;
+}
+.my-work-card{
+    align-items: flex-start;
+    max-width: 224px;
+    min-height: 323px;
+
+}
+h5{
+    font-size: 14px;
+}
+.my-work-card>h3{
+    font-size: 16px;
+}
+.card-green{
+    position: relative;
+    top: 40px;
+    left: 10px;
+    height: 45px;
+    width: 30px;
+    background-color: #A3CB38;
+    z-index: 1;
+}
+hr{
+    height: 4px;
+    width: 30px;
+    background-color: #A3CB38;
+}
+/* Proud section */
+.proud-overrall-container{
+    min-height: 593px;
+}
+.proud-container{
+    max-width: 492px;
+    min-height: 424px;
+    background-color: #A3CB38;
+}
+.proud-text{
+    max-width: 272;
+    margin-right: 70px;
+}
+.proud-text-container{
+    min-height: 424px;
+    max-width: 958;
+    flex-wrap: wrap;
+    align-items: space-evenly;
+}
+#last-proud-text{
+    justify-self: flex-start;
+}
+.proud-container{
+    position: absolute;
+    right: 0;
+}
+.proud-container>h1{
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 136px;
+    color: white;
+}
+
+/* My side hustle section */
+.my-hustle-overrall-container{
+    min-height: 950px;
+    flex-wrap: wrap;
+}
+.my-hustle-text-container{
+    max-width: 376px;
+}
+.my-hustle-text-container>h1{
+    color: #A3CB38;
+}
+.my-hustle-text-container>p{
+    margin-top: 32px;
+}
+.my-hustle-image-container{
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+/* Styling footer section */
+footer{
+    text-align: right;
+    padding-bottom: 64px;
+}
+.proud-container{
+    position: absolute;
+    left: 0;
+}
+
+/* Mobile friendly */
+@media only screen and {max-width: 600;}
+    
+}
